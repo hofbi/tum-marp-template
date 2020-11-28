@@ -2,8 +2,7 @@
 
 @import 'default';
 
-section
-{
+section {
   background-color: #fff;
   color: #000;
   background-image: url('images/TUM_Logo_blau_rgb_s.svg');
@@ -12,8 +11,7 @@ section
   background-size: 8%;
 }
 
-section.lead
-{
+section.lead {
   background-image: url('images/TUM_Uhrenturm.png');
   background-position: right;
   background-size: 45%;
@@ -22,37 +20,31 @@ section.lead
 section h1,
 section a,
 section footer,
-section::after
-{
+section::after {
   color: #0065BD;
 }
 
-section.invert
-{
+section.invert {
   background-color: #003359;
   color: #fff;
   background-image: url('images/TUM_Logo_weiss_rgb_s.svg');
 }
 
-section.lead.invert
-{
+section.lead.invert {
   background-image: url('images/TUM_Uhrenturm_w.png');
 }
 
 section.invert h1,
 section.invert footer,
-section.invert::after
-{
+section.invert::after {
   color: #fff;
 }
 
-section.invert a
-{
+section.invert a {
   color: #E37222;
 }
 
 /* Add "Page" prefix and total page number */
-section::after
-{
+section::after {
   content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
 }
