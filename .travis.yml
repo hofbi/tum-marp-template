@@ -10,11 +10,14 @@ before_install:
   - chmod +x docker-compose
   - sudo mv docker-compose /usr/local/bin
 
+install:
+  - docker-compose run -d --entrypoint "" --name marp generate sh
+  - docker ps -a
+
 script:
-  - docker-compose run generate --input-dir ./slides
-  - docker-compose run generate --input-dir ./slides --pdf
-  - mv build/slide-deck.html build/index.html
-  - echo '# This branch is for deployment only' >> build/README.md
+  - docker exec marp sh -c "node /home/marp/.cli/marp-cli.js --input-dir ./slides"
+  - docker exec marp sh -c "node /home/marp/.cli/marp-cli.js --input-dir ./slides --pdf"
+  - docker exec marp sh -c "echo '# This branch is for deployment only' >> build/README.md"
 
 # Deploy to gh-pages branch
 deploy:

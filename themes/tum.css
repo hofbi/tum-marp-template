@@ -21,7 +21,7 @@ section h1,
 section a,
 section footer,
 section::after {
-  color: #0065BD;
+  color: #0065bd;
 }
 
 section.invert {
@@ -41,7 +41,7 @@ section.invert::after {
 }
 
 section.invert a {
-  color: #E37222;
+  color: #e37222;
 }
 
 /* Add "Page" prefix and total page number */

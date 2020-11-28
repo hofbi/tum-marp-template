@@ -5,9 +5,9 @@
 
 This is a template repository for [Marp Slides](https://marp.app) with a TUM theme. Marp is a markdown presentation ecosystem that allows you to create slides by writing simple markdown.
 
-You can find a live demo at
+You can find a live demo at https://hofbi.github.io/tum-marp-template/
 
-Download the [PDF].
+Download the [PDF](https://hofbi.github.io/tum-marp-template/slide-deck.pdf).
 
 ## Setup
 
