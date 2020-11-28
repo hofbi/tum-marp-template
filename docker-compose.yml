@@ -1,0 +1,21 @@
+version: '3'
+services:
+  generate:
+    image: marpteam/marp-cli
+    user: "node"
+    volumes:
+      - ./:/home/marp/app
+    environment:
+      - LANG=de_DE.UTF-8
+    command: --input-dir ./slides
+  serve:
+    image: marpteam/marp-cli
+    user: "node"
+    volumes:
+      - ./:/home/marp/app
+    environment:
+      - LANG=de_DE.UTF-8
+    ports:
+      - 8080:8080
+      - 37717:37717
+    command: --watch --server ./slides

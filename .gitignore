@@ -1,0 +1,6 @@
+#IDE
+.idea
+.vscode
+
+# Build Folder
+build

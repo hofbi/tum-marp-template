@@ -1,0 +1,13 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  super-lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Super-Linter
+      uses: github/super-linter@v3.10.2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
