@@ -12,8 +12,8 @@ before_install:
 
 script:
   - mkdir -p build
-  - docker-compose run generate --input-dir ./slides"
-  - docker-compose run generate --input-dir ./slides --pdf"
+  - docker-compose run generate --input-dir ./slides
+  - docker-compose run generate --input-dir ./slides --pdf
   - echo '# This branch is for deployment only' >> build/README.md
 
 # Deploy to gh-pages branch
