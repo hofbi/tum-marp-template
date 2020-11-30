@@ -11,7 +11,7 @@ Download the [PDF](https://hofbi.github.io/tum-marp-template/slide-deck.pdf).
 
 ## Setup
 
-We use [Marp](https://marp.app) to generate the slides from markdown. Follow the setup on their [website](https://github.com/marp-team/marp-cli) or use our `docker-compose.yml`.
+Follow the setup on the [Marp CLI repository](https://github.com/marp-team/marp-cli) or use our `docker-compose.yml`.
 
 ## Build
 
@@ -24,11 +24,8 @@ docker-compose run generate --input-dir ./slides         # Generate html
 docker-compose run generate --input-dir ./slides --pdf   # Pdf
 docker-compose run generate --input-dir ./slides --pptx  # Powerpoint
 
-# Fast Live Serve of lecture slides
+# Fast Live Serve of the slides
 docker-compose up   # Access the slides on http://localhost:8080
-
-# Serve any slides
-docker-compise run serve --watch --server ./slides
 ```
 
 ## How To
