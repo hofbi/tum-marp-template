@@ -1,6 +1,5 @@
 # TUM Marp Template
 
-[![Build Status](https://travis-ci.org/hofbi/tum-marp-template.svg?branch=master)](https://travis-ci.org/hofbi/tum-marp-template)
 [![Actions Status](https://github.com/hofbi/tum-marp-template/workflows/CI/badge.svg)](https://github.com/hofbi/tum-marp-template)
 
 This is a template repository for [Marp Slides](https://marp.app) with a TUM theme. Marp is a markdown presentation ecosystem that allows you to create slides by writing simple markdown.
