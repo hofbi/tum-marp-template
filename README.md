@@ -32,3 +32,20 @@ docker-compose up   # Access the slides on http://localhost:8080
 - [Get Started](https://github.com/marp-team/marp)
 - [Documentation](https://marpit.marp.app/)
 - [CLI](https://github.com/marp-team/marp-cli)
+
+## Paper
+
+This template was created as part of the [Software Engineering Lab](https://www.ei.tum.de/en/lmt/teaching/software-engineering-laboratory/) presented in *TODO* [[PDF](https://www.researchgate.net/publication/TODO)].
+If you use our template please cite our paper.
+
+```tex
+@inproceedings{hofbauer_2022,
+    title = {Teaching Software Engineering As Programming Over Time},
+    booktitle = {IEEE/ACM 4th International Workshop on Software Engineering Education for the Next Generation},
+    address = {Virtual Event},
+    author = {Hofbauer, Markus and  Bachhuber, Christoph and  Kuhn, Christopher and  Steinbach, Eckehard},
+    month = {May},
+    year = {2022},
+    pages = {1--8},
+}
+```
