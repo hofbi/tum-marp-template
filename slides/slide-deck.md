@@ -1,15 +1,15 @@
 ---
 title: Demo
 description: Demo TUM Marp Template
-class: invert                               # Dark theme all slides (remove to use light theme)
-_class:                                     # First slide
-  - invert                                  # Dark theme for title slide
-  - lead                                    # Title slide style
-footer: Presentation Title | Author Name
-_footer: ""                                 # No footer on title slide
-paginate: true                              # Page numbers
-_paginate: false                            # No page numbers on title slide
-marp: true                                  # Nice preview for the VS Code extension
+class: invert
+_class:
+  - invert
+  - lead
+footer: Date | Author Name | Presentation Title
+_footer: ""
+paginate: true
+_paginate: false
+marp: true
 ---
 
 # TUM Marp Slides Template
@@ -23,12 +23,31 @@ Author Name
 
 ## Outline
 
+- Marp Header
 - Light Theme
 - Bullet Points
 - Tables
 - Images
 - Code
 - References
+
+---
+
+## Marp Header
+
+```yml
+title: Demo
+description: Demo TUM Marp Template
+class: invert                               # Dark theme all slides (remove to use light theme)
+_class:                                     # First slide
+  - invert                                  # Dark theme for title slide
+  - lead                                    # Title slide style
+footer: Presentation Title | Author Name    # Slide footer
+_footer: ""                                 # No footer on title slide
+paginate: true                              # Page numbers
+_paginate: false                            # No page numbers on title slide
+marp: true                                  # Nice preview for the VS Code extension
+```
 
 ---
 
