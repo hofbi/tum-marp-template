@@ -22,7 +22,7 @@ jobs:
           mv build/slide-deck.html build/index.html
       - name: Deploy
         if: github.ref == 'refs/heads/master'
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
           branch: gh-pages
           folder: build

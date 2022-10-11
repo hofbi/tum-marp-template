@@ -16,15 +16,15 @@ Follow the setup on the [Marp CLI repository](https://github.com/marp-team/marp-
 
 ```shell
 # Learn the CLI
-docker-compose run generate --help
+docker compose run generate --help
 
 # Generate slides
-docker-compose run generate --input-dir ./slides         # Generate html
-docker-compose run generate --input-dir ./slides --pdf   # Pdf
-docker-compose run generate --input-dir ./slides --pptx  # Powerpoint
+docker compose run generate --input-dir ./slides         # Generate html
+docker compose run generate --input-dir ./slides --pdf   # Pdf
+docker compose run generate --input-dir ./slides --pptx  # Powerpoint
 
 # Fast Live Serve of the slides
-docker-compose up   # Access the slides on http://localhost:8080
+docker compose up   # Access the slides on http://localhost:8080
 ```
 
 ## How To
@@ -35,7 +35,7 @@ docker-compose up   # Access the slides on http://localhost:8080
 
 ## Paper
 
-This template was created as part of the [Software Engineering Lab](https://www.ei.tum.de/en/lmt/teaching/software-engineering-laboratory/) presented in *TODO* [[PDF](https://www.researchgate.net/publication/TODO)].
+This template was created as part of the [Software Engineering Lab](https://www.ei.tum.de/en/lmt/teaching/software-engineering-laboratory/) presented in *2022 IEEE/ACM 4th International Workshop on Software Engineering Education for the Next Generation (SEENG)* [[PDF](https://ieeexplore.ieee.org/document/9814913)].
 If you use our template please cite our paper.
 
 ```tex
