@@ -4,16 +4,16 @@ services:
     volumes:
       - ./:/home/marp/app
     environment:
-      - LANG=de_DE.UTF-8
-      - MARP_USER=""
+      LANG: de_DE.UTF-8
+      MARP_USER: ""
     command: --input-dir ./slides
   serve:
     image: marpteam/marp-cli
     volumes:
       - ./:/home/marp/app
     environment:
-      - LANG=de_DE.UTF-8
-      - MARP_USER=""
+      LANG: de_DE.UTF-8
+      MARP_USER: ""
     ports:
       - 8080:8080
       - 37717:37717
