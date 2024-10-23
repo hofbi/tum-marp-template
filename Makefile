@@ -14,5 +14,5 @@ light_theme_slides:
 .PHONY: slides
 slides: light_theme_slides
 	mkdir -p build && cp -r slides/images build/
-	docker compose run -e MARP_USER=$(shell id -u):$(shell id -g) generate --input-dir ./slides
-	docker compose run -e MARP_USER=$(shell id -u):$(shell id -g) generate --input-dir ./slides --pdf
+	docker compose run generate --input-dir ./slides
+	docker compose run generate --input-dir ./slides --pdf
